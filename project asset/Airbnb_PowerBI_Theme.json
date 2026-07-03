@@ -1,0 +1,100 @@
+{
+  "$schema": "https://powerbi.com/product/schema#theme",
+  "name": "Airbnb BI Theme",
+  "dataColors": [
+    "#FF5A5F",
+    "#00A699",
+    "#FC642D",
+    "#484848",
+    "#8B5CF6",
+    "#0072CE",
+    "#F59E0B",
+    "#767676"
+  ],
+  "background": "#F7F7F7",
+  "foreground": "#484848",
+  "tableAccent": "#FF5A5F",
+  "good": "#008489",
+  "neutral": "#F59E0B",
+  "bad": "#C13515",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Calibri",
+            "fontSize": 11,
+            "color": {
+              "solid": {
+                "color": "#484848"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "Calibri",
+            "color": {
+              "solid": {
+                "color": "#484848"
+              }
+            }
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#EBEBEB"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": false,
+            "gridHorizontal": true,
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#EBEBEB"
+              }
+            }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontFamily": "Calibri",
+            "fontSize": 10,
+            "fontBold": true,
+            "backColor": {
+              "solid": {
+                "color": "#FF5A5F"
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
