@@ -12,10 +12,8 @@ This project analyzes Airbnb booking activity across 80 listings, 50 hosts, and 
 
 **Page 2 — Host & Property:** bookings by property type, Superhost vs. Regular split (by bookings and by revenue), price-vs-review scatter by property type, a revenue decomposition tree (neighbourhood → property type → room type → host status), and a host performance leaderboard table.
 
-![Executive Overview](images/executive_overview.png)
-![Host and Property](images/host_property.png)
-
-*(Add your exported screenshots of both report pages here — see "How to Reproduce" below.)*
+![Executive Overview](images\Executives.jpg)
+![Host and Property](images\Host.jpg)
 
 ## 🗂️ Data
 
@@ -68,13 +66,6 @@ airbnb-bookings-performance-dashboard/
 ├── dashboards/       # Airbnbreport.pbix
 └── images/           # exported screenshots of both report pages
 ```
-
-## 🚀 How to Reproduce
-
-1. Open `dashboards/Airbnbreport.pbix` in Power BI Desktop.
-2. In Power Query Editor, review the applied steps to see the cleaning transformations described above.
-3. Refresh the data model against the CSVs in `data/` if you've swapped in your own extract.
-4. Export each report page as an image (File → Export → Export to PDF, or right-click each page) and drop them into `images/`.
 
 ## 📈 Results / Impact
 
