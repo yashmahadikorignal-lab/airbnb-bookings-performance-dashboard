@@ -12,8 +12,8 @@ This project analyzes Airbnb booking activity across 80 listings, 50 hosts, and 
 
 **Page 2 — Host & Property:** bookings by property type, Superhost vs. Regular split (by bookings and by revenue), price-vs-review scatter by property type, a revenue decomposition tree (neighbourhood → property type → room type → host status), and a host performance leaderboard table.
 
-![Executive Overview](images\Executives.jpg)
-![Host and Property](images\Host.jpg)
+![Executive Overview](images/Executives.jpg)
+![Host and Property](images/Host.jpg)
 
 ## 🗂️ Data
 
